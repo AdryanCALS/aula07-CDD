@@ -49,7 +49,7 @@ HANGMANPICS = [r'''
  / \  |
       |
 =========''']
-palavras = ["Adryan", "_ _ _ _ _ _"]
-tentativas = 0
+palavras = ["Adryan"]
 digitado = input("Digite uma letra para verificar se ela esta na palavra: ")
-while tentativas < 
+if digitado not in palavras[0]:
+    print("")
